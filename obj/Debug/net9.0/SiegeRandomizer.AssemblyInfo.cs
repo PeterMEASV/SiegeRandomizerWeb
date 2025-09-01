@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiegeRandomizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b29f9c43973cb53b31347e7b3527ef1dd71c649d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63a99428967917188d5bea76bbe3ffe88543801a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiegeRandomizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiegeRandomizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

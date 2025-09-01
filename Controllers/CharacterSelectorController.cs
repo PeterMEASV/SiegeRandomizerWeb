@@ -35,6 +35,19 @@ public class CharacterSelectorController(CharacterService service) : ControllerB
         CharacterResponse response = service.GetRandomDefender();
         return Ok(response);
     }
+
+    [HttpGet]
+    public ActionResult RefreshAttackers()
+    {
+        service.ResetActiveAttackers();
+        return Ok();
+    }
+    [HttpGet]
+    public ActionResult RefreshDefenders()
+    {
+        service.ResetActiveDefenders();
+        return Ok();
+    }
     
         
         
