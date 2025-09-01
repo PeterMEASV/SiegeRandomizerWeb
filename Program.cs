@@ -1,6 +1,8 @@
 using SiegeRandomizer.FakeDB;
 using SiegeRandomizer.Services;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApiDocument();
 builder.Services.AddSingleton<FakeCharacterDB>();
